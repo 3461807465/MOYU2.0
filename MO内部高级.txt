@@ -615,6 +615,10 @@ about:Button("工具挂",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/StandAwekening.lua"))()
 end)
 
+about:Button("隐身（大多数能使用）",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
+end)
+
 about:Button("铁拳",function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'))()
 end)
@@ -7943,6 +7947,18 @@ about:Toggle("无敌模式","", false, function(Value)
     about:Button("动力套装", function()
     game.ReplicatedStorage.ChangeOutfits:FireServer("SuperScuba")
     end)
+    
+local UITab84 = win:Tab("内部脚本",'16060333448')
+
+about:Button("点我复制Azarine hub cdid dc频道",function()
+    setclipboard("https://discord.com/invite/RkPmppzjcj")
+end)
+
+about:Button("点我复制格林威尔脚本dc社区",function()
+    setclipboard("https://discord.gg/xGCzxdx5wq")
+end)
+
+
     
         executeScript()
     else
