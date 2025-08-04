@@ -24,7 +24,7 @@ local ImageLabel = Instance.new("ImageLabel")
 ImageLabel.Name = "ImageNotificationImage"
 ImageLabel.Size = UDim2.new(0.3, 0, 0.3, 0) -- 全屏大小
 ImageLabel.BackgroundTransparency = 0 -- 不透明背景
-ImageLabel.Image = "rbxassetid://6035145364" -- 替换为实际的图片资源ID
+ImageLabel.Image = "rbxassetid://16060333448" -- 替换为实际的图片资源ID
 ImageLabel.ImageColor3 = Color3.new(1, 1, 1) -- 图片颜色（白色）
 ImageLabel.ZIndex = 10
 ImageLabel.Parent = ScreenGui
@@ -145,7 +145,7 @@ NotificationLoad:NewNotification({
 
 local UITab84 = win:Tab("信息",'83797717401046')
 
-local about = UITab84:section("『介绍』",true)
+local about = UITab:section("『介绍』",true)
 about:Label("你的注入器:"..identifyexecutor())
 about:Label("你的用户名:"..game.Players.LocalPlayer.Character.Name)
 about:Label("服务器名称:"..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
